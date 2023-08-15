@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Caprasimo', cursive;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(68.15deg, #15303C 16.62%, #173846 85.61%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F1E4AC;
+}
+
+.left-login >h1{
+    font-weight: 400; 
+    font-size: 60px;
+}
+
+.left-img{
+    width: 25vw;
+    -webkit-filter: drop-shadow(0px 0px 20px #186172); 
+    filter: drop-shadow(0px 0px 20px #186172);
+}
+
+.rigt-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 180px 15px;
+    font-family: 'Caprasimo', cursive;
+    font-weight: 100;
+    margin: 0;
+    color: #F1E4AC;
+    background: #145664;
+    border-radius: 28px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login >h1 {
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.textfield{
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    font-size: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 18px;
+    padding: 15px;
+    background: #236572;
+    color: #F1E4AC;
+    font-size: 12px;
+    box-shadow: 8px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield> label{
+    color: #F1E4AC;
+    margin-bottom: 18px;
+}
+
+.textfield > input::placeholder{
+    font-size: 15px;
+    color: #F1E4AC;
+}
+
+.btn-login{
+    font-size: 20px;
+    width: 40%;
+    padding: 16px 8px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Caprasimo', cursive;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #15303C;
+    background: #F1E4AC;
+    box-shadow: 0px 40px -12px #dfdac6;
+}
+
+.btn-login:hover {
+    background-color: rgba(236,214,196, 0.53);
+    }
